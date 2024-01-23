@@ -29,7 +29,173 @@
         }
     </script>
 </head>
+
 <body>
-    
+    <header class="container md:mx-auto md:px-4 sm:mx-2">
+
+        <div class="bg-[#FFF]">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <span class="text-red-500 font-bold">
+                                <li><a class="text-xl">Home</a></li>
+                            </span>
+                            <li><a class="text-xl">About</a></li>
+                            <li><a class="text-xl">Pages</a></li>
+                            <li><a class="text-xl">Blog</a></li>
+                            <li><a class="text-xl">Blog</a></li>
+                            <li><a class="text-xl">Contact</a></li>
+                    </div>
+                    <a class="btn btn-ghost text-4xl">Hockey <span class="text-red-500 font-bold">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <span class="text-red-500 font-bold">
+                            <li><a class="text-xl">Home</a></li>
+                        </span>
+                        <li><a class="text-xl">About</a></li>
+                        <li><a class="text-xl">Pages</a></li>
+                        <li><a class="text-xl">Blog</a></li>
+                        <li><a class="text-xl">Blog</a></li>
+                        <li><a class="text-xl">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <!-- <div class="mr-9 mt-2">
+                        <input type="checkbox" value="synthwave"
+                            class="toggle theme-controller bg-amber-300 border-sky-400 [--tglbg:theme(colors.sky.500)] checked:bg-blue-300 checked:border-blue-800 checked:[--tglbg:theme(colors.blue.900)] row-start-1 col-start-1 col-span-2" />
+                    </div> -->
+                    <div class="mr-5">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <a class="btn bg-[#FF4240] text-white text-xl">Get Ticket</a>
+                </div>
+            </div>
+        </div>
+        <!-- banner section -->
+        <section>
+            <div class="py-10 ">
+                <div class="carousel w-full ">
+                    <div id="slide1"
+                        class="carousel-item relative w-full bg-[url(./images./1.png)]  h-[40vh]  md:h-[50vh] lg:h-[90vh] bg-center bg-cover rounded-lg">
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2"
+                        class="carousel-item relative w-full  bg-[url(./images./4.png)] h-[40vh]  md:h-[50vh] lg:h-[90vh] bg-center bg-cover">
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3"
+                        class="carousel-item relative w-full  bg-[url(./images./2.png)] h-[40vh]  md:h-[50vh] lg:h-[90vh] bg-center bg-cover">
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4"
+                        class="carousel-item relative w-full bg-[url(./images./3.png)] h-[40vh]  md:h-[50vh] lg:h-[90vh] bg-center bg-cover">
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[160px] visible mx-auto w-[500px] bg-[#131318] lg:-translate-y-60 lg:mr-24   rounded-lg ">
+                    <div class="text-white p-6">
+                        <h1 class=" text-xl font-bold mb-4">Meet all the heroes from the field</h1>
+                        <h1 class="text-gray-500">Ruslan Salakhutdinov is a Canadian researcher working in the field of
+                            artificial intelligence. He specializes in deep learning,</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Professional Hockeys Club -->
+        <section>
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-black">Professional Hockeys Club</h1>
+                <p class=" text-gray-500 mt-3 ">The Hockey Champions <br>Trophy Bangladesh simply known as HCT
+                    Bangladesh <br> and officially as DMCB Hockey Champions Trophy Bangladesh for sponsorship reasons
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10 gap-4">
+                <div>
+                    <div class="card ">
+                        <figure class="px-10 pt-10">
+                            <div>
+                                <div class="radial-progress text-red-500" style="--value:60;" role="progressbar">68%
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Prayer Facility</h2>
+                            <p>It seems like you're asking for a 10-letter word related to a "Prayer Facility." One
+                                possible word that fits this criteria is "Chaplaincy.".</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card ">
+                        <figure class="px-10 pt-10">
+                            <div>
+                                <div class="radial-progress text-accent" style="--value:70;" role="progressbar">78%
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Experienced Coach</h2>
+                            <p>It seems like you're asking for a 10-letter word related to a "Prayer Facility." One
+                                possible word that fits this criteria is "Chaplaincy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <figure class="px-10 pt-10">
+                            <div>
+                                <div class="radial-progress text-orange-400" style="--value:80;" role="progressbar">89%
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Senior Player</h2>
+                            <p>It seems like you're asking for a 10-letter word related to a "Prayer Facility." One
+                                possible word that fits this criteria is "Chaplaincy."</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <figure class="px-10 pt-10">
+                            <div>
+                                <div class="radial-progress text-sky-400" style="--value:100;" role="progressbar">100%
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Training Ground</h2>
+                            <p>It seems like you're asking for a 10-letter word related to a "Prayer Facility." One
+                                possible word that fits this criteria is "Chaplaincy.".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Program Sections  -->
 </body>
+
 </html>
